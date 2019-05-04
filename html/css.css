@@ -1,0 +1,141 @@
+<style>
+*{
+  box-sizing: border-box; 
+}
+
+nav {
+  padding: 1em;
+  font-family: sans-serif;
+  padding-bottom: 0px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+nav li a {
+  color: gainsboro;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+nav li a:hover {
+  background: white;
+  color: black;
+
+}     /* Header*/
+
+
+body {
+  background-color: seashell;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > div {
+  flex: 1;
+  order: 1;
+}  
+
+div > h1{
+  color: #333;
+  text-align: center;
+}
+
+#qs{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+footer {
+  padding: 0px;
+  margin: 0px;
+  height: 340px;
+  background: #333;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+
+h1 > cite{
+  font-size: 25px;
+}
+
+strong > i
+{
+  letter-spacing: 7px;
+}
+
+a{ 
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: underline;
+  text-decoration: none;
+}
+a:hover{
+  color:seashell;
+}
+
+.colC{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  background: #f5f5dc;
+  padding-right: 5px 20px;
+  width: 10px: 
+  color: white;
+}
+
+.flexContainer {
+  display: flex;
+}
+.flexSpaceAround {
+  justify-content: space-around;
+}
+.subContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.col {
+  width: 32%;
+  border: 1px solid #777777;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+}
+
+div, nav{
+  padding: 1em;
+}
+
+footer > div {
+  text-align: right;
+}
+
+
+
+div>button{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 20px;
+} 
+
+@media screen and (min-width: 1200px) {
+  nav ul {
+    display: flex;
+  }
+}
